@@ -7,16 +7,16 @@ struct bill
 }item[50];
 void main()
 {
-	struct bill item[50];
-	int i,sum=0;
-	float totalsum;
-	printf("Enter product details\n");
-	for (i=0;i<2;i++)
-	{
-		printf("Enter the sno , comodity name,and quantiy, rate of single piece\n");
-		scanf("%d %s %d %f",&item[i].sno,&item[i].name,&item[i].qty,&item[i].rate);
-		printf("commodity values\n %d %s %d %.2f \n",item[i].sno,item[i].name,item[i].qty,item[i].rate);
-	}
+
+
+
+
+
+
+
+
+
+
 	for(i=0;i<2;i++)
 	{
 		item[i].tot_amt=(float)item[i].qty*item[i].rate;
